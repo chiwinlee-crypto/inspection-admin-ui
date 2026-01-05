@@ -31,7 +31,7 @@ export function AppLayout({ children }: { children: React.ReactNode }) {
             <div className="flex items-center gap-2">
               <div className="h-9 w-9 rounded-xl bg-blue-600 grid place-items-center font-bold">巡</div>
               <div>
-                <div className="text-sm font-semibold leading-5">睿巡查管理系统</div>
+                <div className="text-sm font-semibold leading-5">bad鸭>ba d>
                 <div className="text-xs text-slate-400">{user?.role === "ADMIN" ? "管理员" : user?.role === "AUDITOR" ? "核审员" : "整改员"}</div>
               </div>
             </div>
