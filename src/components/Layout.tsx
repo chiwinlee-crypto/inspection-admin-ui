@@ -29,7 +29,7 @@ export function AppLayout({ children }: { children: React.ReactNode }) {
         <aside className="w-64 shrink-0 bg-slate-900 text-slate-100 min-h-screen">
           <div className="px-5 py-5 border-b border-slate-800">
             <div className="flex items-center gap-2">
-              <div className="h-9 w-9 rounded-xl bg-blue-600 grid place-items-center font-bold">巡</div>
+              <div className="h-9 w-9 rounded-xl bg-blue-600 grid place-items-center font-bold">🦆>ydiv>
               <div>
                 <div className="text-sm font-semibold leading-5">bad鸭>/div>
                 <div className="text-xs text-slate-400">{user?.role === "ADMIN" ? "管理员" : user?.role === "AUDITOR" ? "核审员" : "整改员"}</div>
